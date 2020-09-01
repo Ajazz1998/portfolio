@@ -62,3 +62,45 @@ function currentSlide(index) {
     slides[index-1].style.display = "block";  
     dots[index-1].className += " active";
 }
+
+document.getElementById("navbar").addEventListener("click", () => {
+
+  const topbar = document.getElementById("topbar");
+  
+  if(topbar.style.display === "none"){
+      topbar.style.display="block";
+  }else{
+      topbar.style.display="none";
+  }
+})
+
+  /* Animate scroll */
+
+
+$(document).ready(function() {
+  $('.js--wp-1').waypoint(function(){
+    $('.js--wp-1').addClass('animated fadeIn'); 
+}, {
+    offset: '50%'
+});
+
+$('.js--wp-2').waypoint(function(){
+ $('.js--wp-2').addClass('animated fadeInUp'); 
+}, {
+ offset: '50%'
+});
+
+$('.js--wp-3').waypoint(function(){
+ $('.js--wp-3').addClass('animated fadeIn'); 
+}, {
+ offset: '50%'
+});
+
+$('.js--wp-4').waypoint(function(){
+ $('.js--wp-4').addClass('animated pulse'); 
+}, {
+ offset: '50%'
+});
+
+});
+

@@ -92,6 +92,10 @@
     z-index: 10;
   }
 
+  .main_nav ul{
+    display: block;
+  }
+
   .header nav p{
     color: var(--white);
     font-size: 1.7em;
@@ -105,6 +109,14 @@
   .header nav ul{
     display: flex;
     align-items: center;
+  }
+
+  .fa-bars{
+    position: absolute;
+    right: 0;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: none;
   }
 
   .header nav ul li{
@@ -289,6 +301,7 @@
   bottom: 20px;
 }
 
+
 .projects_contents p{
   margin-bottom: 10px;
 }
@@ -330,8 +343,13 @@
 }
 
 .content_details{
-  margin: 30px 5px;
+  margin: 20px 5px;
+  margin-top: 5px;
   padding: 10px;
+}
+
+.content_details a{
+  color: #000;
 
 }
 
@@ -542,4 +560,125 @@ address{
 }
 
 
-  
+.second_page{
+  padding: 100px;
+  background-color: #2C3339;
+  color: var(--white);
+}
+
+.second_page .headers h2{
+ text-align: center;
+}
+
+
+.second_page .headers h2::after{
+  content: " ";
+  display: block;
+  width: 25%;
+  height: 1px;
+  background: #ccc;
+  position: relative;
+  margin: 20px auto;
+  bottom: 0;
+}
+
+.second_page h2::after{
+  content: " ";
+  display: block;
+  width: 15%;
+  height: 1px;
+  background: #ccc;
+  position: relative;
+  margin: 15px 0;
+  bottom: 0;
+}
+
+
+.second_page .headers img{
+  width: 100%;
+  height: 420px;
+}
+
+
+.second_about{
+  position: relative;
+}
+
+.second_content{
+  margin: 30px 0;
+}
+
+.second_content p{
+  width: 200%;
+}
+
+.second_about h3{
+  position: absolute;
+  right: 200px;
+  top: 10px;
+  font-style: italic;
+  color: var(--main-color);
+}
+
+.second_link{
+  display: flex;
+  position: relative;
+  left: 250px;
+}
+
+.second_link a{
+  padding: 0 30px;
+  color: var(--white);
+  font-size: 30px;
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
+}
+
+.second_link a:hover{
+  color: var(--main-color);
+}
+
+
+.technology ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.back{
+  text-align: center;
+  margin-top: 20px;
+  color: var(--white);
+  font-size: 1.5rem;
+
+}
+
+
+    /*-------------------------------*/
+    /* Animation */
+    /*-------------------------------*/
+
+    .js--wp-1,
+    .js--wp-2,
+    .js--wp-3{
+        opacity: 0;
+        transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+        -ms-transition: all 200ms ease-in;
+        -o-transition: all 200ms ease-in;
+}
+
+    .js--wp-4{
+        transition: all 200ms ease-in;
+    }
+
+    .js--wp-1.animated,
+    .js--wp-2.animated,
+    .js--wp-3.animated {
+        opacity: 1;
+    }
+
+
