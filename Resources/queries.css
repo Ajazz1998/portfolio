@@ -1,0 +1,32 @@
+@media screen and (max-width: 750px) {
+    .fa-bars{
+      display: block;
+    }
+  
+    .main_nav{
+      position: relative;
+    }
+  
+    #topbar{
+      display: none;
+      margin: 10px 50px;
+    }
+  
+    .about_img{
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .about_img{
+      display: none;
+    }
+  
+    .header nav ul{
+      display: block;
+    }
+  }
+  
+    
