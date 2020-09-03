@@ -670,11 +670,11 @@ address{
     .js--wp-slide,
     .js--wp-35{
         opacity: 0;
-        transition: all 100ms ease-in;
-        -webkit-transition: all 100ms ease-in;
-        -moz-transition: all 100ms ease-in;
-        -ms-transition: all 100ms ease-in;
-        -o-transition: all 100ms ease-in;
+        transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+        -ms-transition: all 200ms ease-in;
+        -o-transition: all 200ms ease-in;
 }
 
     .js--wp-4,

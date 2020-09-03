@@ -87,7 +87,7 @@ $(document).ready(function() {
   $('.js--wp-slide').waypoint(function(){
     $('.js--wp-slide').addClass('animated fadeIn'); 
 }, {
-    offset: '50%'
+    offset: '80%'
 });
 
   $('.js--wp-copy').waypoint(function(){
@@ -141,7 +141,7 @@ $('.js--wp-4').waypoint(function(){
 $('.js--wp-5').waypoint(function(){
  $('.js--wp-5').addClass('animated pulse'); 
 }, {
- offset: '50%'
+ offset: '70%'
 });
 
 $('.js--wp-projects1').waypoint(function(){

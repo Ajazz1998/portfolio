@@ -1,32 +1,125 @@
+
+  @media screen and (max-width: 1150px){
+    .row{
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .about_img::after{
+      width: 65%;
+  }
+
+    .about_img img{
+      width: 440px;
+  }
+
+  .about{
+    height: 105vh;
+  }
+
+  .fa-chevron-down{
+    bottom:-100px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 800px){
+  .projects_container > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
 @media screen and (max-width: 750px) {
-    .fa-bars{
-      display: block;
-    }
-  
-    .main_nav{
-      position: relative;
-    }
-  
-    #topbar{
-      display: none;
-      margin: 10px 50px;
-    }
-  
-    .about_img{
-      display: none;
-    }
-  
+  .fa-bars{
+    display: block;
+  }
+
+  .main_nav{
+    position: relative;
+  }
+
+  #topbar{
+    display: none;
+    margin: 10px 50px;
+  }
+
+  .about{
+    display: block;
+    height: 120vh;
+  }
+
+  .about_img img{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.about_img::after{
+  width: 60%;
+  height: 220px;
+  bottom: 210px;
+
+}
+
+  .footer_container{
+    display: block;
+  }
+
+  .contanier{
+    display: block;
+  }
+
+  .header-content{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+  .projects_container > div{
+    display: block;
+  }
+
+  .btn_slide{
+    display: none;
+  }
+
+  .reasons-to-employ > div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mySlides{
+    margin: 0;
+  }
+
+  .footer_social{
+    margin-top: 50px;
+  }
+
+  .projects_contents h2::after {
+    display: none;
+
+}
+}
+
+@media screen and (max-width: 450px) {
+  .about_img::after, .about h2::after {
+    display: none;
   }
   
-  @media screen and (max-width: 600px) {
-  
-    .about_img{
-      display: none;
-    }
-  
-    .header nav ul{
-      display: block;
-    }
+  .about{
+    height: 130vh;
   }
-  
+
+  .about_img img{
+    width: 300px;
+  }
+}
     
