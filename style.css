@@ -680,11 +680,11 @@ address{
     .js--wp-4,
     .js--wp-copy,
     .js--wp-1 {
-        transition: all 900ms ease-in;
-        -webkit-transition: all 900ms ease-in;
-        -moz-transition: all 900ms ease-in;
-        -ms-transition: all 900ms ease-in;
-        -o-transition: all 900ms ease-in;
+        transition: all 5s ease-in;
+        -webkit-transition: all 5s ease-in;
+        -moz-transition: all 5s ease-in;
+        -ms-transition: all 5s ease-in;
+        -o-transition: all 5s ease-in;
 }
 
     .js--wp-1.animated,

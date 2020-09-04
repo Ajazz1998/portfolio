@@ -22,6 +22,9 @@
     bottom:-100px;
   }
 
+  .second_content > div {
+    display: block;
+  }
 
 }
 
