@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repo
 
 ```
-git clone https://github.com/Ajazz1998/Pub.git
+git clone https://github.com/Ajazz1998/portfolio.git
 ```
 
 2. Open home file
