@@ -3,6 +3,13 @@
 
 Personal Web Develope Portfolio built using the good old basics. Made with Vanilla JS, CSS and HTML.
 
+# Watch live
+
+-----
+https://quizzical-stonebraker-5f7256.netlify.app/
+
+-----
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.

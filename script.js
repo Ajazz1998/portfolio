@@ -111,13 +111,13 @@ $('.js--wp-3').waypoint(function(){
 $('.js--wp-footerright').waypoint(function(){
  $('.js--wp-footerright').addClass('animated fadeInRight'); 
 }, {
- offset: '70%'
+ offset: '80%'
 });
 
 $('.js--wp-footerleft').waypoint(function(){
  $('.js--wp-footerleft').addClass('animated fadeInLeft'); 
 }, {
- offset: '70%'
+ offset: '80%'
 });
 
 $('.js--wp-25').waypoint(function(){
