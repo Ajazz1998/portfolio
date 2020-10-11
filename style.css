@@ -21,6 +21,7 @@
     --main-color: #be2835;
     --secondary-color: #f6f6f6;
     --white: #fff;
+    overflow-x: hidden;
   }
 
   li{
