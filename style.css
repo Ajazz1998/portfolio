@@ -658,6 +658,40 @@ address{
 
 
     /*-------------------------------*/
+    /* Other Pages */
+    /*-------------------------------*/
+
+.devices{
+  padding: 70px 0;
+}
+
+.devices .headers h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otherD img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.otherD .box-2 {
+  margin-left: 30px;
+}
+
+.otherD .box-2 img{
+  width: 100%;
+  max-width: 80%;
+}
+
+
+
+
+
+
+
+    /*-------------------------------*/
     /* Animation */
     /*-------------------------------*/
 
