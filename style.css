@@ -603,7 +603,7 @@ address{
 
 
 .second_about{
-  position: relative;
+  display: flex;
 }
 
 .second_content{
@@ -615,9 +615,8 @@ address{
 }
 
 .second_about h3{
-  position: absolute;
-  right: 200px;
-  top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
   font-style: italic;
   color: var(--main-color);
 }
