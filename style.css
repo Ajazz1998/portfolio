@@ -650,10 +650,27 @@ address{
 
 .back{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   color: var(--white);
   font-size: 1.5rem;
+  transition: 200ms transform;
+  -webkit-transition: 200ms transform;
+  -moz-transition: 200ms transform;
+  -ms-transition: 200ms transform;
+  -o-transition: 200ms transform;
+}
 
+.back:hover{
+
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+}
+
+.fa-angle-double-left{
+  margin-right: 10px;
 }
 
 
