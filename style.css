@@ -624,11 +624,11 @@ address{
 .second_link{
   display: flex;
   position: relative;
-  left: 250px;
+  left: 340px;
 }
 
 .second_link a{
-  padding: 0 30px;
+  padding: 0 20px;
   color: var(--white);
   font-size: 30px;
   transition: 400ms;
