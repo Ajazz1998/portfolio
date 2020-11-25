@@ -53,6 +53,10 @@
 
   }
 
+  .fa-download{
+    margin-right: 10px;
+  }
+
   .row{
     margin-left: auto;
     margin-right: auto;
@@ -167,6 +171,7 @@
     -ms-border-radius:25px;
     -o-border-radius:25px;
     margin: 1rem 0;
+    outline: none;
     transition: 500ms;
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
@@ -178,6 +183,7 @@
 .btn_active{
   background: var(--main-color);
   margin-right: 10px;
+  padding:10px 40px;
 }
 
 .btn_active:hover{
